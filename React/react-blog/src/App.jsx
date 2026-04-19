@@ -1,18 +1,11 @@
-import React from "react";
-import PassingUserInProps from "./PropsLearn";
-
-// import Condition from "./Conditional";
-// import ToggleName from "./Toggle";
-
-// import { Counter } from "./Counter";
-// import Heading, { Image, List, ClickButton } from "./UserComponents";
+import Main from "./Get Input Field Value/Main";
 
 function App() {
-    return (
-        <div>
-            <PassingUserInProps />
-        </div>
-    );
+  return (
+    <div>
+      <Main />
+    </div>
+  );
 }
 
 export default App;
