@@ -1,10 +1,10 @@
-import './App.css'
+import { Button } from "@/shared/ui/button"
 
 function App() {
   return (
-    <>
-      <h1>Main Page</h1>
-    </>
+    <div className="min-h-screen bg-slate-900 flex items-center justify-center">
+      <Button>shadcn works</Button>
+    </div>
   )
 }
 
